@@ -1,7 +1,9 @@
 import './App.css'
+import Button from './components/Button';
 import HillelCourses from './components/HillelCourses'
 import ProductCard from './components/ProductCard'
 import SayHello from './components/SayHello'
+import Title from './components/Title';
 
 
 function App() {
@@ -17,6 +19,7 @@ function App() {
       <ProductCard />
       
       <SayHello name="Yehor" log={logUser} inof={userInfo} age={28} isAdmin={true} skills={userSkills} />
+      <Title>Home</Title>
       <footer>© 2024 Hillel IT School</footer>
     </main>
   )
