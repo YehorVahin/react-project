@@ -1,4 +1,6 @@
 import './App.css'
+import ButtonAlert from './components/ButtonAlert';
+import ButtonList from './components/ButtonList';
 // import Button from './components/Button';
 // import HillelCourses from './components/HillelCourses'
 // import ProductCard from './components/ProductCard'
@@ -29,10 +31,12 @@ function App() {
     //   <ProductCard />
     //   <ProductCard />
 
-      <ul>
-        {userSkills.map(skill => <li key={`${skill.title}_${skill.level}`}>{skill.title}</li>)}
-      </ul>
+      // <ul>
+      //   {userSkills.map(skill => <li key={`${skill.title}_${skill.level}`}>{skill.title}</li>)}
+      // </ul>
 
+
+<ButtonList />
       // <ul>
       //   {
       //     topFilms.map(film => (
